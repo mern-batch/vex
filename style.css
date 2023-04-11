@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-weight: bold;
+    font-family: 'Tahoma';
+    margin-bottom: 20px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #3b4045;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #3b4045;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+/* Navbar */
+header{
+    padding: 20px 0;
+    padding-bottom: 100px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header > nav > .left-side img{
+    height: 50px;
+}
+
+header > nav > .right-side a{
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+/* Headerr */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header > .left-side,
+#header > .right-side{
+    width: 48%;
+}
+
+#header > .left-side {
+    text-align: center;
+}
+
+#header > .right-side > button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f9a743;
+    color: #fff;
+    font-size: 18px;
+    font-style: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+}
+
+/* Feature */
+#feature{
+    margin-bottom: 100px;
+}
+#feature > h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.feature-item  > i{
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.feature-item > h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Professionla */
+.professional-container{
+    background-color: #f9a743; 
+}
+#professional{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9a743;
+    padding: 50px;
+}
+
+#professional > .left-side{
+    width: 40%;
+    text-align: right;
+} 
+#professional > .right-side{
+    width: 50%;
+}
+
+#professional > .right-side > h2{
+    margin-bottom: 50px;
+}
+
+#professional > .right-side > p{
+    color: #fff;
+}
+
+/* apple */
+
+#apple{
+    margin: 100px auto;
+}
+
+#apple > h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.apple1 > img,
+.apple2 > img{
+    width: 30%;
+}
+
+.apple1 > div,
+.apple2 > div{
+    width: 60%;
+}
+
+.apple1, .apple2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.apple1 > div > h3,
+.apple2 > div > h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+
+/* updates */
+.updates-container{
+    background-image: url("images/call-to-action.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.updates-overlay{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+#updates{
+    padding: 100px;
+}
+
+#updates  >h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#updates>p{
+    color: #fff;
+}
+
+#updates > form{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#updates > form > input{
+    height: 50px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+#updates > form > button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0 40px;
+    border: none;
+    outline: none;
+    background-color: orange;
+}
+
+
+#review{
+    margin: 100px auto;
+}
+
+#review > h2{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.review-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    text-align: center;
+}
+
+.uil-comment-alt-lines{
+    font-size: 50px;
+    color: #f9a743;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.review-item > p{
+    margin-bottom: 20px;
+}
+
+.review-item > img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.footer-container{
+    background-color: #3b4045;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+}
+
+footer > img{
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-link > a{
+    color: #fff;
+    margin-right: 20px;
+}
